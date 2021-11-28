@@ -3,7 +3,7 @@ import { Grid} from '@mui/material'
 import {Formik,Field,Form} from 'formik';
 import * as Yup from 'yup';
 import {makeStyles} from '@mui/styles'
-import Form1 from './SignupSections/Form1'
+import Form1 from './SignupSections/Form_1'
 
 
 //const background_color = 'linear-gradient(100deg, #f6d365 0%, #fda085 70%)';
