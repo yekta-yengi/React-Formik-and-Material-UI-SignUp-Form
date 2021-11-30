@@ -2,7 +2,6 @@ import React from 'react'
 import {Formik,Field,Form} from 'formik';
 import { Grid,Paper } from '@mui/material'
 import {makeStyles} from '@mui/styles'
-//ciğerimi söktün be directory src için 3 tane .. gerek unutma koçum
 import Textfield from '../../../Components/Textfield'
 import Button from '../../../Components/Button'
 
@@ -29,7 +28,7 @@ function Form1() {
                     </Grid>
 
                     {/* Name Input */}
-                    {/* Dar ekranda bütün kolonu kaplıycak, ortada 8 kolon, genişte 6 kolon - yarısı kaplayacak */}
+                    {/*It will cover whole colon on small screens, on middle screens colon 8 units, on large scale 6 units*/}
                     <Grid item xs={12} md={8} lg={6}>
                         <Textfield
                             name="firstName"
