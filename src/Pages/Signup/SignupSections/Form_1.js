@@ -24,7 +24,7 @@ function Form1() {
 
                 <Grid container  className={classes.gridContainerStyles} spacing={4} paddingRight={3} paddingLeft={3} paddingBottom={4} >
                     <Grid item xs={12} >
-                        <h1>SIGN UP</h1>
+                        <h1>Sign Up - Get your new account</h1>
                     </Grid>
 
                     {/* Name Input */}
@@ -55,6 +55,7 @@ function Form1() {
                     {/*Password*/}
                     <Grid item xs={12} md={8} lg={12}>
                         <Textfield
+                            type="password"
                             name="password"
                             label="Password"
                         />
@@ -63,6 +64,7 @@ function Form1() {
                     {/*Confirm Password*/}
                     <Grid item xs={12} md={8} lg={12}>
                         <Textfield
+                            type="password"
                             name="confirm_password"
                             label="Confirm Password"
                         />
